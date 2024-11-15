@@ -56,5 +56,9 @@ Follow these steps to set up the project on your local machine or a cloud server
 git clone https://github.com/ankitkumar3440/SDE_MAjor_Project.git
 cd SDE_MAjor_Project
 
+### **2. Install Dependencies:
+ ```bash
+pip install -r requirements.txt
+
 
 
