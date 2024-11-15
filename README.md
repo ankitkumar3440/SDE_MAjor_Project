@@ -121,4 +121,4 @@ Set up Nginx as a reverse proxy for Gunicorn.
 Contributions are welcome! Please fork the repository and create a pull request with detailed notes.
 
 ### **Contact**
-1. For any queries or collaboration, contact: Ankit Kumar (ankitkumar3440@gmail.com)
+1. For any queries or collaboration, contact: Ankit Kumar (ankitdof100@gmail.com)
