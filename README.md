@@ -55,32 +55,6 @@ Follow these steps to set up the project on your local machine or a cloud server
 ```bash
 git clone https://github.com/ankitkumar3440/SDE_MAjor_Project.git
 cd SDE_MAjor_Project
-2. Install Dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-3. Run the Application:
-bash
-Copy code
-python app.py
-4. Access the Application:
-Open your browser and go to:
-arduino
-Copy code
-http://127.0.0.1:5000
-Deployment
-AWS EC2 Setup:
-Launch an EC2 instance with Amazon Linux 2.
-Install necessary packages:
-bash
-Copy code
-sudo yum update -y
-sudo yum install python3-pip git nginx -y
-Clone the repository and install dependencies.
 
-Contact
-For any queries or collaboration, contact:
-Ankit Kumar
-ankitkumar3440@gmail.com
 
 
