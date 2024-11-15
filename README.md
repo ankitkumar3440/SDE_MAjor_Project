@@ -1,6 +1,6 @@
 # **SDE Major Project**
 
-## **Cloud-Based File Management System**
+## **Enhancing Data Reliability and Privacy in Personal Cloud Storage Systems: Challenges and Solutions**
 
 This project is a comprehensive cloud-based application developed using **Flask**, **AWS Cloud**, and other robust technologies. It supports file upload, download, and deletion with advanced features like **User Authentication**, **CDN Integration**, **RAID for Data Redundancy**, and **Load Balancing** across multiple EC2 instances.
 
