@@ -8,7 +8,7 @@ This project is a comprehensive cloud-based application developed using **Flask*
 ## **System Architecture**
 
 A simplified overview of the architecture:
-![Alt text for the image]Flowchart (3).png)
+![Example Image](Flowchart (3).png)
 
 
 ## **Features**
