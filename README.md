@@ -5,6 +5,11 @@
 This project is a comprehensive cloud-based application developed using **Flask**, **AWS Cloud**, and other robust technologies. It supports file upload, download, and deletion with advanced features like **User Authentication**, **CDN Integration**, **RAID for Data Redundancy**, and **Load Balancing** across multiple EC2 instances.
 
 ---
+## **System Architecture**
+
+A simplified overview of the architecture:
+![Alt text for the image]Flowchart (3).png)
+
 
 ## **Features**
 
@@ -57,13 +62,44 @@ git clone https://github.com/ankitkumar3440/SDE_MAjor_Project.git
 cd SDE_MAjor_Project
 ```
 ---
-### **2. Install Dependencies:
+### 2. Install Dependencies:
  ```bash
 pip install -r requirements.txt
 ```
-### **3. Run the Application:
+### 3. Run the Application:
  ```bash
 python app.py
  ```
+### 4. Access the Application:
+ ```bash
+[python app.py](http://127.0.0.1:5000
+)
+ ```
+---
+### **Deployment**
+### AWS EC2 Setup:
+1. Launch an EC2 instance with Amazon Linux 
+
+2. Install necessary packages:
+ ```bash
+sudo yum update -y
+sudo yum install python3-pip git nginx -y
+
+ ```
+3. Clone the repository and install dependencies.
+
+---
+### **Run Flask with Gunicorn:**
+ ```bash
+gunicorn --bind 0.0.0.0:8000 app:app
+
+ ```
+### **Configure Nginx:**
+Set up Nginx as a reverse proxy for Gunicorn.
+
+### **Load Balancer and CDN:**
+1. Set up an AWS Elastic Load Balancer for multiple EC2 instances.
+2. Configure AWS CloudFront for static content distribution.
+
 
 
