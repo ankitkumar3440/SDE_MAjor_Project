@@ -10,6 +10,9 @@ This project is a comprehensive cloud-based application developed using **Flask*
 A simplified overview of the architecture:
 ![System Architecture](SDE3/Flowchart%20(3).png)
 
+### Implementation steps 
+
+![System Architecture](SDE3/Flowchart%20(4).png)
 
 
 ## **Features**
@@ -101,6 +104,21 @@ Set up Nginx as a reverse proxy for Gunicorn.
 ### **Load Balancer and CDN:**
 1. Set up an AWS Elastic Load Balancer for multiple EC2 instances.
 2. Configure AWS CloudFront for static content distribution.
+---
+### **Challenges Faced**
+1. Port Conflicts: Resolved by identifying conflicting processes.
+2. File Upload Issues: Addressed by increasing client_max_body_size in Nginx.
+3. RAID Simulation: Implemented using Linux tools for redundancy.
+---
+### **Future Enhancements**
+1. Implement SSL/TLS for secure connections.
+2. Automate deployment using Docker and Kubernetes.
+3. Add advanced analytics for user activity.
+---
+### **Contributing**
+Contributions are welcome! Please fork the repository and create a pull request with detailed notes.
 
-
-
+### **Contact**
+For any queries or collaboration, contact:
+Ankit Kumar
+ankitkumar3440@gmail.com
