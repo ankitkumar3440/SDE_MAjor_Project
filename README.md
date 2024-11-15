@@ -77,36 +77,6 @@ Copy code
 sudo yum update -y
 sudo yum install python3-pip git nginx -y
 Clone the repository and install dependencies.
-Run Flask with Gunicorn:
-bash
-Copy code
-gunicorn --bind 0.0.0.0:8000 app:app
-Configure Nginx:
-Set up Nginx as a reverse proxy for Gunicorn.
-
-Load Balancer and CDN:
-Set up an AWS Elastic Load Balancer for multiple EC2 instances.
-Configure AWS CloudFront for static content distribution.
-Screenshots
-User Authentication Page: (Include a screenshot of the login/register page)
-
-File Management Interface: (Include a screenshot showing upload/download/delete functionality)
-
-System Architecture Diagram: (Include a simple architecture diagram here)
-
-Challenges Faced
-Port Conflicts: Resolved by identifying conflicting processes.
-File Upload Issues: Addressed by increasing client_max_body_size in Nginx.
-RAID Simulation: Implemented using Linux tools for redundancy.
-Future Enhancements
-Implement SSL/TLS for secure connections.
-Automate deployment using Docker and Kubernetes.
-Add advanced analytics for user activity.
-Contributing
-Contributions are welcome! Please fork the repository and create a pull request with detailed notes.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
 For any queries or collaboration, contact:
