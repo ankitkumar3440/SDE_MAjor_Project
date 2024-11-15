@@ -52,13 +52,18 @@ Follow these steps to set up the project on your local machine or a cloud server
 - Pip
 
 ### 1. Clone the Repository:
-```bash
+``` bash
 git clone https://github.com/ankitkumar3440/SDE_MAjor_Project.git
 cd SDE_MAjor_Project
-
+```
+---
 ### **2. Install Dependencies:
  ```bash
 pip install -r requirements.txt
-
+```
+### **3. Run the Application:
+ ```bash
+python app.py
+ ```
 
 
