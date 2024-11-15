@@ -12,7 +12,7 @@ A simplified overview of the architecture:
 
 ---
 
-### **Implementation steps** 
+## **Implementation steps** 
 
 ![Development steps](SDE3/Flowchart%20(5).png)
 
@@ -121,6 +121,4 @@ Set up Nginx as a reverse proxy for Gunicorn.
 Contributions are welcome! Please fork the repository and create a pull request with detailed notes.
 
 ### **Contact**
-For any queries or collaboration, contact:
-Ankit Kumar
-ankitkumar3440@gmail.com
+1. For any queries or collaboration, contact: Ankit Kumar (ankitkumar3440@gmail.com)
