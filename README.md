@@ -12,7 +12,7 @@ A simplified overview of the architecture:
 
 ### Implementation steps 
 
-![System Architecture](SDE3/Flowchart%20(4).png)
+![Development steps](SDE3/Flowchart%20(5).png)
 
 
 ## **Features**
