@@ -11,9 +11,9 @@
 # app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # Limit upload size to 16 MB
 
 # # AWS S3 Configuration
-# app.config['S3_BUCKET_NAME'] = 'userbucket1111'
-# app.config['AWS_ACCESS_KEY'] = 'AKIA6ELKOMC2SDI5B65J'
-# app.config['AWS_SECRET_KEY'] = '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'
+# app.config['S3_BUCKET_NAME'] = 'userbucket1111-90'
+# app.config['AWS_ACCESS_KEY'] = 'xyz'
+# app.config['AWS_SECRET_KEY'] = 'zxv'
 # app.config['AWS_REGION'] = 'eu-north-1'
 
 # # Initialize S3 client
